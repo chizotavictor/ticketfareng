@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+}
+
+.profile-divider {
+  border: 1px solid #eee;
+}
+
+.home-divider-top {
+  border-top: 1px solid #eee;
+}
+
+.action-text-color {
+  color: #1e0a3c;
+}

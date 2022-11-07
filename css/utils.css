@@ -1,0 +1,76 @@
+.avatar-initials {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.form-group {
+  border: 1px solid #ccc;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.basic__input_width_size {
+  width: 75%;
+}
+
+.form-group > input:focus {
+  outline: none;
+}
+
+.form-group > select:focus, .form-group > select:active {
+  outline: none;
+}
+
+.form-group > label {
+  font-size: 12px;
+}
+
+.form-group:focus-within {
+  border: 1px solid #090959;
+}
+
+.form-group > select, .form-group > select:after {
+  outline: none;
+}
+
+.form-input:focus {
+  outline: none;
+}
+
+.form-action-wrap {
+  position:fixed;
+  top:auto; 
+  bottom: 0px;
+  height: 80px;
+  background: white;
+  border-top: 1px solid #ccc;
+  width: 100%;
+}
+
+.discard-btn {
+  border: 2px solid #aaa;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 100px;
+}
+
+.discard-btn:hover {
+  background: #ddd;
+}
+
+.save-btn {
+  background: #D1410C;
+  border: 2px solid #D1410C;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
